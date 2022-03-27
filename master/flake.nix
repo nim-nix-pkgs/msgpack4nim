@@ -11,6 +11,7 @@
   inputs.src-msgpack4nim-master.ref   = "refs/heads/master";
   inputs.src-msgpack4nim-master.owner = "jangko";
   inputs.src-msgpack4nim-master.repo  = "msgpack4nim";
+  inputs.src-msgpack4nim-master.dir   = "";
   inputs.src-msgpack4nim-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

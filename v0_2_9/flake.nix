@@ -11,6 +11,7 @@
   inputs.src-msgpack4nim-v0_2_9.ref   = "refs/tags/v0.2.9";
   inputs.src-msgpack4nim-v0_2_9.owner = "jangko";
   inputs.src-msgpack4nim-v0_2_9.repo  = "msgpack4nim";
+  inputs.src-msgpack4nim-v0_2_9.dir   = "";
   inputs.src-msgpack4nim-v0_2_9.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
